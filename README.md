@@ -1,8 +1,6 @@
-# Introduction to "programming-lab-exercises" Repository
-
 # Welcome to the "programming-lab-exercises" Repository!
 
-![IFCE Logo](https://pt.wikipedia.org/wiki/Ficheiro:Instituto_Federal_do_Cear%C3%A1_-_Marca_Vertical_2015_-_com_margens.svg)
+![IFCE Logo](https://commons.wikimedia.org/wiki/File:Instituto_Federal_do_Cear%C3%A1_-_Marca_Horizontal_2015_-_Vers%C3%A3o_Expandida.svg#/media/Ficheiro:Instituto_Federal_do_Ceará_-_Marca_Horizontal_2015_-_Versão_Expandida.svg)
 
 Hello there! This is the official repository of **"programming-lab-exercises,"** where I have gathered my answers to various exercises from my Computer Science **"Programming Lab"** classes at IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará), under the guidance of my esteemed teacher, **Daniel Silva Ferreira.**
 
