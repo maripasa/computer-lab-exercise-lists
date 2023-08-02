@@ -32,6 +32,8 @@ Embora este repositório contenha principalmente meu próprio trabalho, estou ab
 
 Estou animado para me conectar com outros aprendizes e desenvolvedores interessados em programação em C. Sinta-se à vontade para entrar em contato comigo pelo GitHub ou outras plataformas sociais.
 
+
+
 **Instituição:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
 **Curso:** Ciência da Computação  
 **Disciplina:** Laboratório de Programação  
