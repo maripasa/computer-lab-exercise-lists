@@ -1,6 +1,6 @@
 # Bem-vindo ao Repositório "programming-lab-exercises"!
 
-_Leia isso em outros idiomas: [English](https://github.com/maripasa/programming-lab-exercises/blob/main/README.md), [Português🇧🇷](https://github.com/maripasa/programming-lab-exercises/new/main](https://github.com/maripasa/programming-lab-exercises/blob/main/README.br.md))._
+_Read this in other languages: [English](https://github.com/maripasa/programming-lab-exercises/blob/main/README.md), [Português🇧🇷](https://github.com/maripasa/programming-lab-exercises/new/main](https://github.com/maripasa/programming-lab-exercises/blob/main/README.br.md))._
 
 Olá! Este é o repositório oficial de **"programming-lab-exercises,"** onde reuni minhas respostas para vários exercícios de linguagem C das aulas de **Laboratório de Programação** do curso de Ciência da Computação do IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará), sob a orientação do professor **Daniel Silva Ferreira.**
 
