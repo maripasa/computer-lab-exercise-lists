@@ -32,6 +32,8 @@ While this repository primarily contains my own work, I am open to contributions
 
 I'm excited to connect with fellow learners and developers interested in C programming. Feel free to contact me through GitHub or other social platforms.
 
+
+
 **Institution:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
 **Course:** Computer Science  
 **Class:** Programming Lab  
