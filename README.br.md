@@ -14,7 +14,9 @@ O propósito principal deste repositório é documentar meu progresso e jornada 
 
 ## Estrutura de Pastas
 
-Neste repositório, organizei os exercícios em pastas, cada uma dedicada a uma lista específica de exercícios de laboratório de programação em linguagem C. Dentro de cada pasta, você encontrará um documento listando os problemas para aquela sessão. Além disso, há documentos separados que fornecem as respostas para cada problema individual.
+Neste repositório, organizei os exercícios em pastas, cada uma dedicada a uma lista específica de exercícios de laboratório de programação em linguagem C.
+
+Dentro de cada pasta, você encontrará um documento listando os problemas para aquela sessão seguido por documentos separados que fornecem as respostas para cada problema individual. Adicionalmente, há uma pasta contendo códigos utilizados nas aulas que não fazem parte das tarefas, cada um nomeado e datado (DD/MM/YY).
 
 A estrutura foi projetada para facilitar a navegação pelos exercícios e localizar os problemas e suas respectivas soluções de forma eficiente. Essa organização garante uma separação clara entre as declarações dos problemas e as soluções, aprimorando a experiência de aprendizado e promovendo uma melhor gestão de código.
 

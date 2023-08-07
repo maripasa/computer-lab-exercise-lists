@@ -14,7 +14,9 @@ The primary purpose of this repository is to document my progress and learning j
 
 ## Folder Structure
 
-In this repository, I've organized the exercises into folders, each dedicated to a specific C language programming lab exercise list. Within each folder, you'll find a document listing the problems for that session. Additionally, there are separate documents that provide the answers for each individual problem.
+In this repository, I've organized the exercises into folders, each dedicated to a specific C language programming lab exercise list.
+
+Within each folder, you'll find a document listing the problems for that session followed by separate documents that provide the answers for each individual problem. Additionally, there is a folder containing codes used in the classes that are not part of assignments, each named and dated (DD/MM/YY).
 
 The structure is designed to make it easy for you to navigate through the exercises and locate the problems and their corresponding solutions efficiently. This organization ensures a clear separation between the problem statements and the solutions, enhancing the learning experience and promoting better code management.
 
