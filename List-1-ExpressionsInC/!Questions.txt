@@ -1,0 +1,137 @@
+IFCE - Campus Maracanaú
+Prof. Daniel Ferreira
+Laboratório
+de Programação
+LISTA I
+Expressões em C
+14/08/2023
+
+
+
+1_OperatorOrder
+Diga a ordem de cálculo dos operadores em cada uma das instruções em C a seguir e mostre o valor
+de x depois que cada instrução for executada.
+
+2_HexOctConverter
+Faça um programa que leia um valor inteiro decimal X e escreva, na tela, este mesmo valor nas bases
+hexadecimal e octal.
+
+3_SingleDecimal
+Faça um programa capaz de ler um valor real e escrevê-lo com apenas uma casa decimal.
+
+4_ExpressionManipulation
+Sabendo que os argumentos da função "printf" podem ser expressões (a+b, a/b, a*b...), e não somente
+argumentos, faça um programa capaz de ler um valor inteiro X e escrever seu triplo, seu quadrado, e
+seu meio.
+
+5_RestaurantBill
+Escreva um programa que pegue o valor de uma conta de restaurante e imprima o valor total a ser
+pago, considerando que o restaurante cobra 10% de taxa para o garçom.
+
+6_IdealWeight
+Fazer um programa para ler a altura (em metros) e o sexo de uma pessoa e calcular o seu peso ideal
+através da seguinte fórmula:
+para homens: 72.7 * altura - 58
+para mulheres: 62.1 * altura - 44.7
+
+7_TimeToSeconds
+Faça um programa que leia uma quantidade de horas, minutos e segundos e imprima o total de segundos.
+
+8_SquaredValue
+Escreva um programa que receba um valor inteiro e apresente o resultado do valor lido elevado ao
+quadrado.
+
+9_SuccessorPredecessor
+Escreva um programa que leia um valor numérico inteiro e apresente como resultado os seus valores
+sucessor e antecessor.
+
+10_RectangularBoxVolume
+Escreva um programa que calcule e apresente o valor do volume de um caixa retangular utilizando a
+fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
+
+11_CurrencyConversion
+Elabore um programa que apresente o valor da conversão em dólar de um valor lido em real. O
+programa deve solicitar o valor da cotação do dólar e também a quantidade de reais que o usuário
+deseja converter.
+
+12_ArithmeticOperations
+Escreva um programa que peça ao usuário para digitar dois números, obtenha-os do usuário e imprima
+a soma, o produto, a diferença, o quociente e o resto da divisão dos dois números.
+
+13_ValueSwap
+Escreva um programa que leia duas variáveis A e B e efetue a troca dos valores. O objetivo é que a
+variável A passe a conter o valor de B e a variável B passe a possuir o valor de A. Apresente os valores
+após a efetivação do processamento da troca.
+
+14_CelsiusToFahrenheit
+Escreva um programa que leia uma temperatura em graus Celsius e apresente convertida em graus
+Fahrenheit. A fórmula de versão é F = (9* C + 160) / 5, sendo F a temperatura Fahrenheit e C a
+temperatura em Celsius.
+
+15_SalesPersonPayment
+Uma empresa contrata um vendedor a R$ 50,25 por dia. Crie um programa que solicite o número de
+dias trabalhados pelo vendedor e imprima o valor líquido a ser pago ao mesmo, sabendo que se ele
+trabalhou até 10 dias não tem direito à gratificação, se ele trabalhou acima de 10 dias e até 20 dias
+tem direito à gratificação de 20%, se ele trabalhou acima de 20 dias tem direito à gratificação de 30%.
+Sempre são descontados 10% de imposto de renda em cima do valor bruto.
+
+16_TeacherSalary
+Desenvolva um programa que calcule o salario liquido de um professor. Para elaborar o programa, é
+necessário possuir alguns dados, tais como o valor da hora aula, número de horas trabalhadas no mês e
+percentual de desconto do INSS. Em primeiro lugar, deve-se estabelecer o seu salário bruto para fazer
+o desconto e ter o valor do salario liquido. Obs.: o programa deve informar o salario bruto e salario
+liquido do professor.
+
+17_AbsoluteValue
+Escrever um programa que receba um valor inteiro do usuário e apresente o seu valor absoluto (módulo).
+Não utilize estrutura de decisão if.
+
+18_CircleCalculations
+Escreva um programa que leia o raio de um círculo e imprima seu diâmetro, o valor de sua circunferência
+e sua área. Use o valor de 3,14159 para "pi".
+
+19_GeometricShapes
+Escreva um programa que imprima um retângulo, uma elipse, uma seta e um losango como se segue.
+
+20_ParityCheck
+Escreva um programa que receba um número inteiro e então determine e imprima se ele é par ou ímpar.
+Obs.: Não utilizar estrutura de decisão if.
+
+21_MultipleCheck
+Escreva um programa que leia dois inteiros e então determine e imprima se
+
+o primeiro é múltiplo do
+segundo. Obs.: Não utilizar estrutura de decisão if.
+
+22_CharIntConversion
+A linguagem C pode representar letras maiúsculas, letras minúsculas e uma grande variedade de
+símbolos especiais. O C usa internamente pequenos inteiros para representar cada caractere diferente.
+O conjunto de caracteres que um computador utiliza e as representações dos números inteiros corres-
+pondentes àqueles caracteres é chamado conjunto de caracteres do computador. Você pode imprimir
+o número inteiro equivalente à letra maiúscula A, por exemplo, executando a instrução
+printf("%d", 'A');
+Escreva um programa em C que imprima os inteiros equivalentes a algumas letras maiúsculas, letras
+minúsculas e símbolos especiais. No mínimo, determine os números inteiros equivalentes ao conjunto
+seguinte: A BCabc 0 12 $*+/ e o caractere espaço em branco.
+
+23_ReverseDigits
+Escreva um programa que receba a entrada de um número de três dígitos, separe o número em seus
+dígitos componentes e reconstrua um número com os componentes na ordem inversa. Exemplo: para
+entrada de 123, a resposta do programa seria 321.
+
+24_ExponentialProduct
+Escreva um programa que calcule o produto entre um valor dado x por 2 elevado a um valor dado n.
+Obs.: Utilize operadores binários.
+
+25_TimeConversion
+Escreva um programa que leia um tempo em segundos e imprima quantas horas, minutos e segundos
+há neste tempo.
+
+26_DistanceCalculation
+Fazer um programa para ler as coordenadas x e y de dois pontos e calcular a distância entre os dois
+pontos no plano. (Utilize a função sqrt (numero), biblioteca math.h).
+d = √(x₂-x1)² + (Y2 − y₁)²;
+
+27_AverageCalculation
+Escreva um programa que solicite 3 números em ponto flutuante e imprima a média aritmética e
+geométrica. (Utilize a função pow(base, expoente) da biblioteca math.h).
