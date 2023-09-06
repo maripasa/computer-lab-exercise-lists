@@ -6,10 +6,10 @@ int main(){
 	
 	puts("\n==  ==\n");
 
-	print("Insira um numero:");
+	printf("Insira um numero: ");
 	scanf("%d", &input);
 
 
-
+	puts("\nFim\n");
 	return 0;
 }
