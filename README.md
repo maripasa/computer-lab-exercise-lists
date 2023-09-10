@@ -41,4 +41,5 @@ I'm excited to connect with fellow learners and developers interested in C progr
 **Class:** Programming Lab  
 **Teacher:** Daniel Silva Ferreira
 
-![image](https://github.com/maripasa/programming-lab-exercises/assets/123270648/407d4b00-d0be-41c0-9da2-b354198fb87f)
+![Image](https://github.com/maripasa/programming-lab-exercises/assets/123270648/c75a6f3b-ce18-48c7-908e-8efe5aa9c254)
+
