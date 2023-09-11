@@ -1,0 +1,183 @@
+    QUESTÕES DA LISTA 2 DE LABPROG - LABPROG LIST 2 QUESTIONS
+
+Questão 1
+BR: Implemente um programa que tenha como entrada um número (1-7) que corresponde a um dos dias da semana e imprima na tela o nome do dia correspondente (domingo, segunda, terça, quarta, quinta, sexta, sábado).
+Se o número lido não estiver no intervalo 1-7, imprima: "Número de dia não válido".
+O programa deve permanecer executando até que o usuário tecle o número 0. (Utilize obrigatoriamente teste no início).
+
+EN: Implement a program that takes as input a number (1-7) corresponding to one of the days of the week and prints the name of the corresponding day (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday) to the screen. 
+If the number entered is not in the range 1-7, print: "Invalid day number." 
+The program should continue running until the user enters the number 0. (Use a test at the beginning).
+
+Questão 2
+BR: Refaça o programa da Questão 1, utilizando a estrutura de repetição com teste no final.
+EN: Redo the program from Question 1, using the loop structure with a test at the end.
+
+Questão 3
+BR: Escreva um programa que leia um número inteiro e positivo F e calcule o fatorial deste número.
+EN: Write a program that reads a positive integer F and calculates its factorial.
+
+Questão 4
+BR: Implementar um programa para resolver o seguinte problema: José tem 150 centímetros e cresce 2 centímetros por ano. 
+O Pedro tem 110 centímetros e cresce 3 centímetros por ano. Em quantos anos Pedro será maior que José?
+EN: Implement a program to solve the following problem: José is 150 centimeters tall and grows 2 centimeters per year. 
+Pedro is 110 centimeters tall and grows 3 centimeters per year. In how many years will Pedro be taller than José?
+
+Questão 5
+BR: Faça um programa que receba um valor n no teclado e determine o maior e o menor termo fornecido. 
+A condição de término do programa é quando o usuário digitar zero.
+EN: Create a program that receives an input value n from the keyboard and determines the largest and smallest term provided. 
+The program should terminate when the user enters zero.
+
+Questão 6
+BR: Escreva um programa que transforme o computador numa urna eletrônica para eleição para presidente de um certo país, às quais concorrem os candidatos 5-Paulo e 7-Renata. 
+Cada voto deve ser dado pelo número do candidato, permitindo-se ainda o voto 0 para voto em branco. 
+Qualquer voto diferente dos já citados é considerado nulo; em qualquer situação, o eleitor deve ser consultado quanto à confirmação do seu voto. 
+No final da eleição o programa deve emitir um relatório contendo as porcentagens de votação de cada candidato, votos em branco, votos nulos e o candidato eleito. 
+Obs.: O código para finalizar a urna (votação) é o usuário digitar algum número negativo.
+EN: Write a program that turns the computer into an electronic ballot box for a presidential election in a certain country, where candidates 5-Paulo and 7-Renata are running. 
+Each vote should be cast using the candidate's number, with an option to vote 0 for a blank vote. 
+Any vote other than those mentioned is considered null; in any situation, the voter must be consulted to confirm their vote. 
+At the end of the election, the program should generate a report containing the voting percentages for each candidate, blank votes, null votes, and the elected candidate. 
+Note: Entering a negative number is the code to end the voting process.
+
+Questão 7
+BR: Para que a divisão entre 2 números possa ser realizada, o divisor não pode ser nulo (zero). 
+Escreva um programa para ler 2 valores e imprimir o resultado da divisão do primeiro pelo segundo. 
+OBS: O programa deve validar a leitura do segundo valor (que não deve ser nulo). Enquanto for fornecido um valor nulo a leitura deve ser repetida.
+EN: To perform division between two numbers, the divisor cannot be zero. 
+Write a program to read 2 values and print the result of dividing the first by the second. 
+NOTE: The program should validate the second value (which must not be zero). If a zero value is provided, the input should be repeated.
+
+Questão 8
+BR: Uma loja vende seus produtos no sistema entrada mais duas prestações, sendo a entrada maior do que ou igual às duas prestações; 
+estas devem ser iguais, inteiras e as maiores possíveis. 
+Por exemplo, se o valor da mercadoria for R$ 270,00, a entrada e as duas prestações são iguais a R$ 90,00; 
+se o valor da mercadoria for R$ 302,75, a entrada é de R$ 102,75 e as duas prestações são iguais a R$ 100,00. 
+Escreva um programa que receba o valor da mercadoria e forneça o valor da entrada e das duas prestações, de acordo com as regras acima.
+EN: A store sells its products with a down payment plus two installments, 
+where the down payment is greater than or equal to the two installments, and all three must be whole numbers. 
+For example, if the price of the merchandise is R$ 270.00, the down payment and the two installments are R$ 90.00 each. 
+If the price of the merchandise is R$ 302.75, the down payment is R$ 102.75, and the two installments are R$ 100.00 each. 
+Write a program that receives the price of the merchandise and provides the values of the down payment and the two installments according to the rules mentioned above.
+
+Questão 9
+BR: A série de Fibonacci é formada pela seguinte sequência: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... etc. 
+Escreva um algoritmo que gere a série de Fibonacci até o vigésimo termo.
+EN: The Fibonacci series is formed by the following sequence: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... etc. 
+Write an algorithm that generates the Fibonacci series up to the twentieth term.
+
+Questão 10
+BR: Elabore um programa que apresente os quadrados dos números inteiros múltiplos de 4 existentes na faixa de valores de 15 a 90.
+EN: Create a program that displays the squares of integers that are multiples of 4 within the range of values from 15 to 90.
+
+Questão 11
+BR: Refaça a questão 10, considerando que os limites da faixa (A e B) sejam fornecidos pelo usuário. 
+O programa deve funcionar tanto para A > B quanto para B > A.
+EN: Redo question 10, considering that the limits of the range (A and B) are provided by the user. 
+The program should work for both A > B and B > A.
+
+Questão 12
+BR: Elaborar um programa que mostre os resultados da tabuada de um número inteiro qualquer, a qual deve ser apresentada de acordo com sua forma tradicional.
+EN: Develop a program that displays the results of the multiplication table for any integer, 
+which should be presented in its traditional form.
+
+Questão 13
+BR: Elabore um programa que calcule o somatório de todos os números pares pertencentes à faixa A, B especificada pelo usuário. 
+O programa deve funcionar tanto para A > B quanto para B > A.
+EN: Create a program that calculates the sum of all even numbers within the range specified by the user (A, B). 
+The program should work for both A > B and B > A.
+
+Questão 14
+BR: Elabore um programa que apresente a quantidade de números divisíveis por 3 pertencentes à faixa A, B especificada pelo usuário. 
+O programa deve funcionar tanto para A > B quanto para B > A.
+EN: Develop a program that displays the quantity of numbers divisible by 3 within the range specified by the user (A, B). 
+The program should work for both A > B and B > A.
+
+Questão 15
+BR: Elaborar um programa que apresente os resultados das potências do valor de base 3, elevado a um expoente que varie do valor 0 a 7.
+EN: Create a program that displays the results of powers of the base value 3, raised to an exponent ranging from 0 to 7.
+
+Questão 16
+BR: Escreva um programa que apresente o somatório de todos os números divisíveis por 3 pertencentes ao intervalo [0,100] 
+e o somatório de todos os números divisíveis por 5 pertencentes ao intervalo ]100,200]. 
+Obs.: Utilize apenas um laço de repetição.
+EN: Write a program that presents the sum of all numbers divisible by 3 within the range [0,100] 
+and the sum of all numbers divisible by 5 within the range (100,200]. 
+Note: Use only one loop.
+
+Questão 17
+BR: Elaborar um programa que apresente os valores de conversão de graus Celsius em graus Fahrenheit, 
+de 10 em 10 graus, iniciando a contagem em dez graus Celsius e finalizando em cem graus Celsius. 
+O programa deve apresentar os valores das duas temperaturas. 
+Obs.: Pesquise a fórmula de conversão.
+EN: Develop a program that displays conversion values from degrees Celsius to degrees Fahrenheit, 
+in increments of 10 degrees, starting at ten degrees Celsius and ending at one hundred degrees Celsius. 
+The program should show the values for both temperatures. 
+Note: Research the conversion formula.
+
+Questão 18
+BR: Escrever um programa que calcule e apresente o somatório do número de grãos de trigo que se pode obter num tabuleiro de xadrez, 
+obedecendo à seguinte regra: colocar um grão de trigo no primeiro quadro e nos quadros seguintes o dobro do quadro anterior. 
+Ou seja, no primeiro quadro coloca-se um grão, no segundo quadro colocam-se dois grãos (tendo neste momento três grãos), 
+no terceiro quadro colocam-se quatro grãos (tendo neste momento sete grãos), 
+no quarto quadro colocam-se oito grãos (tendo-se então quinze grãos) até atingir o sexagésimo quarto quadro.
+EN: Write a program that calculates and presents the sum of the number of wheat grains that can be obtained on a chessboard, 
+following the rule: place one grain of wheat on the first square and double the number of grains on each subsequent square. 
+In other words, on the first square, one grain is placed, on the second square, two grains are placed (resulting in a total of three grains at this point), 
+on the third square, four grains are placed (resulting in a total of seven grains at this point), 
+and so on, until reaching the sixty-fourth square.
+
+Questão 19
+BR: Elaborar um programa que apresente a média aritmética dos números inteiros existentes entre uma faixa especificada pelo usuário.
+EN: Develop a program that displays the arithmetic mean of integers within a range specified by the user.
+
+Questão 20
+BR: Construir um programa que apresente como resultado o fatorial dos valores ímpares situados na faixa número de 1 a 10.
+EN: Build a program that displays the factorial of odd values within the number range from 1 to 10.
+
+Questão 21
+BR: Um palíndromo é um número, ou frase textual, que pode ser lido da mesma forma da esquerda para a direita e vice-versa. 
+Por exemplo, cada um dos seguintes inteiros de cinco dígitos é um palíndromo: 12321, 55555, 45554 e 11611. 
+Escreva um programa que leia um inteiro de cinco dígitos e determine se ele é ou não um palíndromo. 
+[Dica: use os operadores de divisão e módulo para separar o número em seus dígitos individuais.]
+EN: A palindrome is a number or textual phrase that can be read the same way from left to right and vice versa. 
+For example, each of the following five-digit integers is a palindrome: 12321, 55555, 45554, and 11611. 
+Write a program that reads a five-digit integer and determines whether or not it is a palindrome. 
+[Hint: use division and modulo operators to separate the number into its individual digits.]
+
+Questão 22
+BR: Escreva um programa que leia um número inteiro e determine e imprima quantos dígitos no inteiro são algarismos 7.
+EN: Write a program that reads an integer and determines and prints how many digits in the integer are the digit 7.
+
+Questão 23
+BR: Escreva um programa que mostre a diferença entre pré-incrementar e pós-incrementar usando o operador –.
+EN: Write a program that demonstrates the difference between pre-increment and post-increment using the -- operator.
+
+Questão 24
+BR: Um triângulo retângulo pode ter lados que são valores inteiros. Ache todas as triplas de Pitágoras não superiores a 500 para cateto1, cateto2, e hipotenusa.
+EN: A right triangle can have sides that are integer values. Find all Pythagorean triples not exceeding 500 for leg1, leg2, and hypotenuse.
+
+Questão 25
+PT: Calcule o valor de π a partir da série infinita π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...
+EN: Calculate the value of π using the infinite series π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...
+
+Questão 26
+PT: Escreva um programa que imprima uma tabela dos equivalentes binário, 
+octal, e hexadecimal dos números decimais no intervalo de 1 a 256.
+EN: Write a program that prints a table of binary, octal, and hexadecimal equivalents 
+of decimal numbers in the range from 1 to 256.
+
+Questão 27
+PT: Escreva um programa que receba vários números inteiros (em uma estrutura de laço) 
+e apresente o produto do maior pelo menor número apresentado.
+EN: Write a program that receives multiple integers (in a loop structure) 
+and displays the product of the largest and smallest numbers entered.
+
+Questão 28
+PT: Escreva um programa que receba dois valores numéricos X e Y (unsigned char) 
+e esconda todos os bits de X em cada um dos bits menos significativos dos 4 elementos 
+imediatamente anteriores e posteriores a Y.
+EN: Write a program that receives two numeric values X and Y (unsigned char) 
+and hides all the bits of X in each of the least significant bits of the 4 elements 
+immediately before and after Y.

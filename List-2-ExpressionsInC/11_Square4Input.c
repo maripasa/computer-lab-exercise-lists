@@ -1,31 +1,33 @@
+// Questão 11
+
 #include <stdio.h>
 
-int main(){
-	
-	int x, y;
+int main() {
+    int x, y;
 
-	puts("\n== QUADRADO DOS MULTIPLOS DE 4  ==");	
-	puts("PS: Eu considerei que é de x a y, significando que se y > x vai ao contrário\n");
+    puts("\n== QUADRADO DOS MÚLTIPLOS DE 4 =="); 
+    puts("PS: Eu considerei que é de x a y, significando que se y > x vai ao contrário\n");
 
-	while (1) {
+    while (1) {
+        printf("\nInsira 2 inteiros (x y): ");
+        scanf("%d %d", &x, &y);
 
-	printf("\nInsira 2 inteiros (x y): ");
-	scanf("%d %d", &x, &y);
-	
-	if ( x < y ){
+        if (x < y) {
+            for (; x <= y; x++) {
+                if (x % 4 == 0) {
+                    // Calcula e exibe o quadrado dos múltiplos de 4
+                    printf("Quadrado de %d = %d\n", x, (x * x));
+                }
+            }
+        } else {
+            for (; x >= y; x--) {
+                if (x % 4 == 0) {
+                    // Calcula e exibe o quadrado dos múltiplos de 4
+                    printf("Quadrado de %d = %d\n", x, (x * x));
+                }
+            }
+        }
+    }
 
-	for( ; x <= y ; x++ ){
-
-		if (!( x % 4 )) printf("Quadrado de %d = %d\n", x, ( x * x ));
-	
-	}}else {
-
-	for( ; x >= y ; x-- ){
-
-		if (!( x % 4 )) printf("Quadrado de %d = %d\n", x, ( x * x ));
-	
-	}}
-	}
-
-	return 0;
+    return 0;
 }

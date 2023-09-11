@@ -1,28 +1,24 @@
+// Questão 9
+
 #include <stdio.h>
 
-int main(){
-	
-	int input;
-	int fatorial;
-	
-	puts(" == GERADOR DE FIBONNACI == \n");
-	
-	while (1) {
+int main() {
+    int n = 20; // Defina o número desejado de termos da sequência de Fibonacci
+    int termo1 = 1;
+    int termo2 = 1;
 
-	printf("\n\nInsira um numero: ");
-	scanf("%d", &input);
-	
-	int n = input;
-	
-	for (fatorial = 1; n > 1; n--) {
-		
-		fatorial = fatorial * n;
-		printf("%d, ", fatorial);
+    printf("Série de Fibonacci até o vigésimo termo:\n");
+    printf("%d, %d, ", termo1, termo2);
 
-	}
+    for (int i = 3; i <= n; i++) {
+        int proximo_termo = termo1 + termo2;
+        printf("%d, ", proximo_termo);
 
-	printf("\nO valor de !%d: %d", input, fatorial);
-	}	
+        termo1 = termo2;
+        termo2 = proximo_termo;
+    }
 
-	return 0;
+    printf("\n");
+
+    return 0;
 }

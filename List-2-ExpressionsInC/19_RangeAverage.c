@@ -1,44 +1,40 @@
+// Questão 19
+
 #include <stdio.h>
 
 #define RESET_SUM 0
 
-int main(){
-	
-	int inputA, inputB, hold;
-	int qntNum, sumNum;
-	
-	puts("\n== média do alcance ==\n");
+int main() {
+    int inputA, inputB, hold;
+    int qntNum, sumNum;
 
-	while (1) {
-	
-	qntNum = RESET_SUM;
-	sumNum = RESET_SUM;
+    // Mensagem de boas-vindas
+    puts("\n== Média do Alcance ==\n");
 
-	printf("\n\nInsira o alcance (a b): ");
-	scanf("%d %d", &inputA, &inputB);
+    while (1) {
+        qntNum = RESET_SUM;
+        sumNum = RESET_SUM;
 
-	if ( inputA < inputB ){
+        // Solicita ao usuário que insira o alcance
+        printf("\n\nInsira o alcance (a b): ");
+        scanf("%d %d", &inputA, &inputB);
 
-		for( hold = inputA ; hold <= inputB ; hold++ ){
-		
-			qntNum += 1;
-			sumNum += hold;
+        // Verifica se o início do alcance é menor que o final
+        if (inputA < inputB) {
+            for (hold = inputA; hold <= inputB; hold++) {
+                qntNum += 1; // Incrementa a quantidade de números no alcance
+                sumNum += hold; // Soma os números no alcance
+            }
+        } else {
+            for (hold = inputA; hold >= inputB; hold--) {
+                qntNum += 1; // Incrementa a quantidade de números no alcance
+                sumNum += hold; // Soma os números no alcance
+            }
+        }
 
-		}
-	
-	}else {
+        // Calcula a média e a exibe
+        printf("\nA média do alcance é %.2f", ((float)sumNum / qntNum));
+    }
 
-		for( hold = inputA ; hold >= inputB ; hold-- ){
-
-			qntNum += 1;
-			sumNum += hold;
-
-		}
-	}
-	printf("\nA média do alcance é %f", ((float)sumNum / qntNum));
-
-	}
-
-	
-	return 0;
+    return 0;
 }

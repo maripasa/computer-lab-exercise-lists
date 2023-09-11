@@ -1,49 +1,33 @@
+// Questão 13
+
 #include <stdio.h>
 
 #define RESET_SUM 0
 
-int main(){
-	
-	int inputA, inputB, hold;
-	int sum;
-	
-	puts("\n== Somatório dos Pares ==\n");
+int main() {
+    int inputA, inputB, hold;
+    int sum;
 
-	while (1) {
-	
-	sum = RESET_SUM;
+    puts("\n== Somatório dos Pares ==\n");
 
-	printf("\n\nInsira o alcance (a b): ");
-	scanf("%d %d", &inputA, &inputB);
+    printf("\nInsira o alcance (a b): ");
+    scanf("%d %d", &inputA, &inputB);
 
-	if ( inputA < inputB ){
+    if (inputA < inputB) {
+        for (hold = inputA; hold <= inputB; hold++) {
+            if (!(hold % 2)) {
+                sum += hold;
+            }
+        }
+    } else {
+        for (hold = inputA; hold >= inputB; hold--) {
+            if (!(hold % 2)) {
+                sum += hold;
+            }
+        }
+    }
 
-	for( hold = inputA ; hold <= inputB ; hold++ ){
-		
-		if (!( hold % 2 )) {
+    printf("\nO somatório dos números pares no alcance indicado é: %d\n", sum);
 
-			sum +=  hold;
-			printf(" + %d", hold);
-
-		}
-	}
-	}else {
-
-	for( hold = inputA ; hold >= inputB ; hold-- ){
-
-		if (!( hold % 2 )) {
-
-			sum += hold;
-			printf(" + %d", hold);
-
-		}
-	}
-	}
-	
-	printf("\nO somatório dos números no alcance indicado é: %d", sum);
-
-	}
-
-	
-	return 0;
+    return 0;
 }

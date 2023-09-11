@@ -1,49 +1,35 @@
+// Questão 14
+
 #include <stdio.h>
 
-#define RESET_SUM 0
+#define RESET_COUNT 0
 
-int main(){
-	
-	int inputA, inputB, hold;
-	int sum;
-	
-	puts("\n== Quantidade de Divisíveis por 3 ==\n");
+int main() {
+    int inputA, inputB, hold;
+    int count;
 
-	while (1) {
-	
-	sum = RESET_SUM;
+    puts("\n== Quantidade de Divisíveis por 3 ==\n");
 
-	printf("\n\nInsira o alcance (a b): ");
-	scanf("%d %d", &inputA, &inputB);
+    printf("\nInsira o alcance (a b): ");
+    scanf("%d %d", &inputA, &inputB);
 
-	if ( inputA < inputB ){
+    if (inputA < inputB) {
+        count = RESET_COUNT;
+        for (hold = inputA; hold <= inputB; hold++) {
+            if (hold % 3 == 0) {
+                count++;
+            }
+        }
+    } else {
+        count = RESET_COUNT;
+        for (hold = inputA; hold >= inputB; hold--) {
+            if (hold % 3 == 0) {
+                count++;
+            }
+        }
+    }
 
-	for( hold = inputA ; hold <= inputB ; hold++ ){
-		
-		if (!( hold % 3 )) {
+    printf("\nA quantidade de números divisíveis por 3 no intervalo é: %d\n", count);
 
-			sum += 1;
-			printf("%d, ", hold);
-
-		}
-	}
-	}else {
-
-	for( hold = inputA ; hold >= inputB ; hold-- ){
-
-		if (!( hold % 3 )) {
-
-			sum += 1;
-			printf("%d, ", hold);
-
-		}
-	}
-	}
-	
-	printf("\nA quantia de divisíveis por 3 no alcance é %d", sum);
-
-	}
-
-	
-	return 0;
+    return 0;
 }
