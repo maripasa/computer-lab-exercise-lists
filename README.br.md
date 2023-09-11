@@ -41,4 +41,4 @@ Estou animado para me conectar com outros aprendizes e desenvolvedores interessa
 **Disciplina:** Laboratório de Programação  
 **Professor:** Daniel Silva Ferreira
 
-![image](https://github.com/maripasa/programming-lab-exercises/assets/123270648/4bc70270-0f6e-493a-b9aa-c113e82b5566)
+![logo](https://github.com/maripasa/programming-lab-exercises/assets/123270648/d9e47bcc-7483-44b9-bff9-810b795a9461)
