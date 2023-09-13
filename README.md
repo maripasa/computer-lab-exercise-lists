@@ -24,17 +24,15 @@ Feel free to explore the folders and documents to access the exercises and their
 
 ## How to Use
 
-Feel free to explore the repository and delve into the C language exercises that interest you the most. You can review the solutions, compare your own answers, and learn from different approaches to problem-solving in C. If you have any suggestions, improvements, or feedback, I am more than happy to hear from you. Together, we can enhance this repository and make it an even better resource for all C language learners.
+Feel free to explore the repository and delve into the C language exercises that interest you the most. You can review the solutions, compare your own answers, and learn from different approaches to problem-solving in C. If you have any suggestions, improvements, or feedback, I am more than happy to hear from you.
 
 ## Contribution
 
-While this repository primarily contains my own work, I am open to contributions from others. If you find any errors, have additional C language exercises to share, or wish to suggest improvements, please submit your contributions via pull requests. Let's collaborate and create a thriving community of C language learners!
+While this repository primarily contains my own work, I am open to contributions from others. If you find any errors, have additional C language exercises to share, or wish to suggest improvements, please submit your contributions via pull requests.
 
 ## Connect with Me
 
-I'm excited to connect with fellow learners and developers interested in C programming. Feel free to contact me through GitHub or other social platforms.
-
-
+I'm excited to connect with fellow learners and developers. Feel free to contact me through GitHub or other social platforms.
 
 **Institution:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
 **Course:** Computer Science  
@@ -42,4 +40,3 @@ I'm excited to connect with fellow learners and developers interested in C progr
 **Teacher:** Daniel Silva Ferreira
 
 ![Logo](https://github.com/maripasa/programming-lab-exercises/assets/123270648/c75a6f3b-ce18-48c7-908e-8efe5aa9c254)
-
