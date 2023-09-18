@@ -1,6 +1,6 @@
 Bem-vindo ao Repositório "programming-lab-exercises"!
 
-_Leia isso em outros idiomas: [English](README.md), [Português🇧🇷](README.br.md)._
+_Leia isso em outros idiomas: [English](README.md), [Português](README.br.md)._
 
 Olá! Este é o repositório oficial do **"programming-lab-exercises,"** onde reuni minhas respostas para vários exercícios de linguagem C das minhas aulas de **"Laboratório de Programação"** no IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará), sob a orientação do meu professor, **Daniel Silva Ferreira.**
 

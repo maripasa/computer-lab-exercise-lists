@@ -1,6 +1,6 @@
 # Welcome to the "programming-lab-exercises" Repository!
 
-_Read this in other languages: [English](README.md), [Português🇧🇷](README.br.md)._
+_Read this in other languages: [English](README.md), [Português](README.br.md)._
 
 Hello there! This is the official repository of **"programming-lab-exercises,"** where I have gathered my answers to various C language exercises from my Computer Science **"Programming Lab"** classes at IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará), under the guidance of my teacher, **Daniel Silva Ferreira.**
 
