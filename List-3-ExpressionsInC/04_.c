@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <string.h>
+
+#define SIZE 50 
+
+// Function Declarations
+int cmpRaw(char vector1[SIZE], char vector2[SIZE]);
+
+// Main Func
+int main() {
+
+int choice;
+char string1[SIZE];
+char string2[SIZE];
+
+printf("String 1: \n> ");
+fgets(string1, SIZE, stdin);
+
+printf("String 2: \n> ");
+fgets(string2, SIZE, stdin);
+
+printf("strcmp() ou cmpRaw() (1 ou 2):");
+scanf("%d", &choice);
+
+switch ( choice ) {
+
+	case 1:	
+		puts("Strcmp:");
+		(!strcmp(string1, string2)) ? puts("Iguais!") : puts("Diferentes!");
+		break;
+	case 2:
+		puts("cmpRaw:");
+		(cmpRaw(string1, string2)) ? puts("Iguais!") : puts("Diferentes!");
+		break;
+	default:
+		puts("Nada foi escolhido.");	
+}
+
+return 0;
+
+}
+
+// Function Definitions
+int cmpRaw(char vector1[SIZE], char vector2[SIZE]){
+
+	for ( int i = 0 ; i < SIZE ; i++ ) {
+		
+		if (vector1[i] != vector2[i]) return 0;
+		if ((vector1[i] == vector2[i]) & (vector1[i] == '\n')) break;	
+
+	}
+
+	return 1;
+
+}
+
