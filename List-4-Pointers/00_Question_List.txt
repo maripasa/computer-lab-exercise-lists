@@ -1,0 +1,40 @@
+1. Escreva um programa que adicione dois números usando ponteiros.
+Além do valor da soma, imprima também o endereço de memória onde o
+valor resultante dessa soma está armazenado.
+
+2. Escreva um programa que troque o valor de dois números utilizando
+ponteiros.
+
+3. Escreva um programa que solicite iterativamente um número do
+usuário e imprima sempre o menor valor fornecido.
+Crie um critério para finalização do programa. Utilize ponteiros.
+
+4. Escreva um programa que leia um vetor do usuário e imprima seus
+valores e seus endereços. Teste o vetor com tipos de dados diferentes,
+analise os endereços. O que você observou?
+
+5. Escreva um programa que encontre o tamanho de uma string fornecida.
+Utilize ponteiros.
+
+6. Escreva um programa que copie uma string para outra usando ponteiros.
+
+7. Escreva um programa que concatene duas strings utilizando ponteiros.
+
+8. Escreva um programa que busque um caractere fornecido em uma string
+utilizando ponteiros.
+
+9. Implemente o método de ordenação bolha utilizando ponteiros.
+
+10. Escreva um programa que gere um vetor X com números pseudoaleatórios
+no intervalo [0, N - 1]. Crie um vetor F com N posições e armazene em
+cada posição de F a quantidade de ocorrências dos elementos de X.
+
+11. Escreva um programa que gere dois vetores (X e Y) com números
+pseudoaleatórios no intervalo [0, N - 1]. Crie uma matriz M com dimensões
+NxN que armazene as coocorrências dos elementos de X e Y.
+
+12. Reimplemente a questão considerando que o vetor Y é dado em função
+de X de acordo com as regras dadas. Considere os valores limites definidos
+na questão anterior para yi.
+
+Em todos os programas, utilize #define para o tamanho do vetor.
