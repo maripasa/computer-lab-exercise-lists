@@ -30,9 +30,7 @@ Feel free to explore the repository and delve into the C language exercises that
 
 While this repository primarily contains my own work, I am open to contributions from others. If you find any errors, have additional C language exercises to share, or wish to suggest improvements, please submit your contributions via pull requests.
 
-## Connect with Me
-
-I'm excited to connect with fellow learners and developers. Feel free to contact me through GitHub or other social platforms.
+## Institute
 
 **Institution:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
 **Course:** Computer Science  
