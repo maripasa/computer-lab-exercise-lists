@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-void test(int numer) {
-	numer = numer + 1;
-}
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
-
-	int num = 5;
-	test(num);
+	while (1) {
+	srand(time(NULL));
+	int num = rand() % 2;
 	printf("%d", num);
-}
+}}
