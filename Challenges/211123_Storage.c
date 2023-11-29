@@ -128,7 +128,8 @@ void firstFit(struct Node **head, int sizeToAdd) {
         current = current->next;
     }
 }
-
+// BROKEN may fix it some day
+/*
 void bestFit(struct Node **head, int sizeToAdd, int storageSize) {
     if (*head == NULL) {
         // Handle the case where the linked list is empty
@@ -158,7 +159,7 @@ void bestFit(struct Node **head, int sizeToAdd, int storageSize) {
         bestFitNode->next = newNode;
     }
 }
-
+*/
 //void bestFit(struct Node **head, int sizeToAdd){}
 
 int main() {
@@ -189,16 +190,18 @@ int main() {
 		scanf("%d", &option);
 
 		switch (option) {
-			case 1:
-				puts("First-Fit, what size of process to add?");
+		case 1:
+		puts("First-Fit, what size of process to add?");
                 scanf("%d", &sizeToAdd);
                 firstFit(&head, sizeToAdd);
                 break;
 
-			case 2:
-				puts("Best-Fit, what size of process to add?");
+		case 2:
+		// BROKEN may fix it
+		/*
+		puts("Best-Fit, what size of process to add?");
                 scanf("%d", &sizeToAdd);
-                bestFit(&head, sizeToAdd, sizeStorage);
+                bestFit(&head, sizeToAdd, sizeStorage); */
                 break;
 
             case 3:
