@@ -30,6 +30,13 @@ Feel free to explore the repository and delve into the C language exercises that
 
 While this repository primarily contains my own work, I am open to contributions from others. If you find any errors, have additional C language exercises to share, or wish to suggest improvements, please submit your contributions via pull requests.
 
+## TODO
+
+- [ ] Make pt-br and en pages the same
+- [ ] Organize codes
+- [ ] Give names to the codes
+- [ ] Comment some codes
+
 ## Institute
 
 **Institution:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
