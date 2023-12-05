@@ -34,6 +34,7 @@ While this repository primarily contains my own work, I am open to contributions
 
 - [ ] Make pt-br and en pages the same
 - [ ] Organize codes
+- [ ] Organize the executables in one directory
 - [ ] Give names to the codes
 - [ ] Comment some codes
 
