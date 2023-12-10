@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){
 	float medianValue = median(vector, sizeVector);
 		
 	printf("Média: %f\n", meanValue);
-	printf("Mediana: %d\n", medianValue);
+	printf("Mediana: %f\n", medianValue);
 	mode(vector, sizeVector);
 
 	free(vector);
