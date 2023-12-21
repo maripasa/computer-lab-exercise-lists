@@ -1,4 +1,4 @@
-Bem-vindo ao Repositório "programming-lab-exercises"!
+# Bem-vindo ao Repositório "programming-lab-exercises"!
 
 _Leia isso em outros idiomas: [English](README.en.md), [Português](README.md)._
 
