@@ -1,0 +1,12 @@
+1. Escreva um programa em C que leia dados de diferentes usuários e grave
+   em um arquivo csv. Pesquise sobre a organização de um arquivo csv.
+
+2. Você é o dono de uma loja de materiais e precisa manter um inventário
+   que poderá informar quais e quantas ferramentas você possui e o custo de
+   cada uma. Escreva um programa que inicialize o arquivo “hardware.dat”
+   para 100 registros vazios e permita que você insira os dados referentes
+   a cada ferramenta, liste todas as suas ferramentas, exclua um registro
+   para a ferramenta que não possui mais e atualize qualquer informação no
+   arquivo. O número de identificação da ferramenta deverá ser o número do registro.
+   Você deve armazenar em seu arquivo os seguintes campos.
+   # registro - Nome da ferramenta - Quantidade - Custo.

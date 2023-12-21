@@ -1,0 +1,28 @@
+1. Escreva um programa que receba dois valores por linha de execução e realize a soma ou multiplicação, conforme um código de
+operação também recebido por linha de execução.
+
+2. Escreva um programa em C que informe o endereço do menor elemento de um vetor de inteiros gerado. A quantidade de elementos
+desse array deve ser fornecida por linha de comando.
+
+3. Modifique a questão anterior criando uma função que armazena em um vetor os endereços do menor e do maior elemento do vetor.
+
+4. Escreva um programa que, dado um vetor X de inteiros, realize a seguinte normalização dos dados (min-max):
+   X' = (X - min(X)) / (max(X) - min(X)), onde min() e max() correspondem ao menor e maior do vetor, respectivamente.
+
+5. Escreva um programa que some todos os elementos de um vetor de float alocado dinamicamente. A quantidade de elementos deve
+ser fornecida por linha de comando. Utilize a função rand() para alimentar o vetor com valores pseudo-aleatórios.
+
+6. Escreva um programa em C que apresente a média, a mediana e a moda de um vetor de inteiros gerados aleatoriamente em tempo de execução.
+
+7. Calcule o erro médio quadrático entre dois vetores A e B de dimensão N gerados aleatoriamente. Pesquise a equação.
+
+8. Escreva um programa em C que binarize os elementos da matriz M gerada aleatoriamente e com dimensões obtidas em tempo de
+execução. A partir de um limiar t dado, crie a matriz S da seguinte forma:
+   Si,j = { 1 se Mi,j > t, 0 caso contrário }
+
+9. Escreva um programa em C que informe se a soma da diagonal principal de uma matriz N x N gerada é par ou ímpar.
+
+10. Escreva um programa que gere dois vetores (X e Y) com números pseudoaleatórios no intervalo [0, N - 1].
+Crie uma matriz M com dimensões NxN que armazene as coocorrências dos elementos de X e Y. Utilize funções.
+
+Em todas as questões, utilize aritmética de ponteiros para referenciar os elementos da matriz (ou vetor).

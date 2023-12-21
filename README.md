@@ -1,48 +1,40 @@
-# Welcome to the "programming-lab-exercises" Repository!
+Bem-vindo ao Repositório "programming-lab-exercises"!
 
-_Read this in other languages: [English](README.md), [Português](README.br.md)._
+_Leia isso em outros idiomas: [English](README.en.md), [Português](README.md)._
 
-Hello there! This is the official repository of **"programming-lab-exercises,"** where I have gathered my answers to various C language exercises from my Computer Science **"Programming Lab"** classes at IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará), under the guidance of my teacher, **Daniel Silva Ferreira.**
+Olá! Este é o repositório **"programming-lab-exercises"**, onde compilei minhas respostas para vários exercícios de linguagem C das minhas aulas de Laboratório de Programação do curso de Ciência da Computação no IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará), sob a orientação do professor **Daniel Silva Ferreira.**
 
-## About the Repository
+## Sobre o Repositório
 
-In this repository, you will find a collection of folders, each containing C language exercises and their respective solutions from different programming lab sessions. The exercises cover various topics and concepts in C programming, offering a comprehensive learning experience in computer science.
+Neste repositório, você encontrará uma coleção de pastas, cada uma contendo exercícios de linguagem C e suas respectivas soluções de diferentes sessões de laboratório de programação. Os exercícios abrangem vários tópicos e conceitos em programação C, oferecendo uma experiência abrangente de aprendizado em ciência da computação.
 
-## Purpose
+## Propósito
 
-The primary purpose of this repository is to document my progress and learning journey during the C language programming lab classes at IFCE. By keeping track of the exercises and their solutions, I aim to build a valuable resource for myself and others who might be interested in exploring C programming concepts.
+O principal propósito deste repositório é documentar meu progresso e jornada de aprendizado durante as aulas de laboratório de programação em C no IFCE. Ao acompanhar os exercícios e suas soluções, meu objetivo é construir um recurso valioso para mim e para outros interessados em explorar os conceitos de programação em C.
 
-## Folder Structure
+## Estrutura de Pastas
 
-In this repository, I've organized the exercises into folders, each dedicated to a specific C language programming lab exercise list.
+Neste repositório, organizei os exercícios em pastas, cada uma dedicada a uma lista específica de exercícios de laboratório de programação em C.
 
-Within each folder, you'll find a document listing the problems for that session followed by separate documents that provide the answers for each individual problem. Additionally, there is a folder containing codes used in the classes that are not part of assignments, each named and dated (DD/MM/YY).
+Dentro de cada pasta, você encontrará um documento listando os problemas para aquela sessão, seguido por documentos separados que fornecem as respostas para cada problema individual. Além disso, há uma pasta contendo códigos usados nas aulas que não fazem parte das atribuições, cada um nomeado e datado (DD/MM/AA).
 
-The structure is designed to make it easy for you to navigate through the exercises and locate the problems and their corresponding solutions efficiently. This organization ensures a clear separation between the problem statements and the solutions, enhancing the learning experience and promoting better code management.
+A estrutura é projetada para facilitar a navegação pelos exercícios, permitindo localizar os problemas e suas soluções eficientemente. Essa organização garante uma clara separação entre as declarações dos problemas e as soluções, aprimorando a experiência de aprendizado e promovendo uma melhor gestão de código.
 
-Feel free to explore the folders and documents to access the exercises and their respective solutions. 
+Sinta-se à vontade para explorar as pastas e documentos para acessar os exercícios e suas respectivas soluções.
 
-## How to Use
+## Como Usar
 
-Feel free to explore the repository and delve into the C language exercises that interest you the most. You can review the solutions, compare your own answers, and learn from different approaches to problem-solving in C. If you have any suggestions, improvements, or feedback, I am more than happy to hear from you.
+Explore livremente o repositório e mergulhe nos exercícios de linguagem C que mais lhe interessam. Você pode revisar as soluções, comparar com suas próprias respostas e aprender com diferentes abordagens para a resolução de problemas em C. Se tiver sugestões, melhorias ou feedback, ficarei mais do que feliz em ouvir de você.
 
-## Contribution
+## Contribuição
 
-While this repository primarily contains my own work, I am open to contributions from others. If you find any errors, have additional C language exercises to share, or wish to suggest improvements, please submit your contributions via pull requests.
+Embora este repositório contenha principalmente meu próprio trabalho, estou aberto a contribuições de outros. Se encontrar erros, tiver exercícios adicionais de linguagem C para compartilhar ou quiser sugerir melhorias, por favor, envie suas contribuições por meio de pull requests.
 
-## TODO
+## Instituto
 
-- [ ] Make pt-br and en pages the same
-- [ ] Organize codes
-- [ ] Organize the executables in one directory
-- [ ] Give names to the codes
-- [ ] Comment some codes
-
-## Institute
-
-**Institution:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
-**Course:** Computer Science  
-**Class:** Programming Lab  
-**Teacher:** Daniel Silva Ferreira
+**Instituição:** [IFCE (Instituto Federal de Educação, Ciência e Tecnologia do Ceará)](https://www.ifce.edu.br/)  
+**Curso:** Ciência da Computação  
+**Disciplina:** Laboratório de Programação  
+**Professor:** Daniel Silva Ferreira
 
 ![Logo](https://github.com/maripasa/programming-lab-exercises/assets/123270648/c75a6f3b-ce18-48c7-908e-8efe5aa9c254)

@@ -20,6 +20,3 @@ Faça uma versão com o método de ordenação por seleção e outra pelo métod
 
 10. Faça um programa que gere uma matriz bidimensional com elementos aleatórios e receba do usuário um valor inteiro x.
 O programa deve informar quantas vezes x aparece na matriz gerada.
-
-
-
